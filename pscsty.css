@@ -1,0 +1,105 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  position: relative;
+}
+.htextsty {
+  text-align: right;
+}
+a {
+  text-decoration: none;
+  color: #dbe9f2;
+  text-align: end;
+}
+.topdiv {
+  position: relative;
+  /* text-align: end;*/
+  color: #dbe9f2;
+
+  background-image: url("top.jpg");
+
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  background-size: 100% 14%;
+  /* background-size: contain;*/
+  height: 750px;
+  width: 70%;
+  border-radius: 20px;
+  margin: 30px 35px 10px 350px;
+  padding-left: 0px;
+  padding-top: 8px;
+  padding-right: 0px;
+}
+.firstfirstdiv {
+  display: inline-block;
+  text-align: right;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #1371b0;
+  border-right: none;
+  position: absolute;
+  border-radius: 0px;
+  background-color: #ebeef0;
+  height: 1000px;
+  width: 75%;
+  padding: 0px 0px 0px 0px;
+  margin-top: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+  z-index: 1;
+}
+.seconddiv {
+  display: inline-block;
+  text-align: center;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #1371b0;
+  border-left: none;
+  position: absolute;
+  border-radius: 0px;
+  background-color: #77bff0;
+  height: 1000px;
+  width: 25%;
+  padding: 0px 0px 0px 0px;
+  margin-top: 30px;
+  margin-left: 74.5%;
+  margin-right: 0px;
+  z-index: 1;
+}
+
+.firstseconddiv {
+  text-align: right;
+  position: relative;
+  margin-top: 985px;
+  z-index: 0;
+  border-radius: 20px;
+  background-color: #1371b0;
+  height: 125px;
+  width: 100%;
+  padding: 10px 0px 0px 0px;
+}
+.welcomet {
+  color: rgb(37, 173, 121);
+  text-align: left;
+  font-weight: 900;
+}
+.tabdata {
+  padding-right: 15px;
+  padding-top: 20px;
+  background-color: darkblue;
+  border-radius: 25px;
+  color: rgb(233, 220, 220);
+  height: 55px;
+  width: 175px;
+  margin: 25px;
+  display: inline-block;
+}
+.item {
+  padding-top: 5px;
+  padding-left: 15px;
+  color: black;
+  font-weight: lighter;
+  text-align: left;
+}
